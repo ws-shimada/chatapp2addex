@@ -47,7 +47,7 @@ with open(file = FPATH, encoding = "utf-8") as f:
 SLEEP_TIME_LIST = [5, 5, 5, 5, 5] # 各対話ターンの待機時間
 DISPLAY_TEXT_LIST = ['「原子力発電を廃止すべきか否か」という意見に対して、あなたの意見を入力し、送信ボタンを押してください。',
                      'あなたの意見を入力し、送信ボタンを押してください。']
-QUALTRICS_URL = "https://nagoyapsychology.qualtrics.com/jfe/form/SV_0SNLEKPKyygfths/"
+QUALTRICS_URL = "https://nagoyapsychology.qualtrics.com/jfe/form/SV_1YXssOhyFAzPQea/"
 FIREBASE_APIKEY_DICT = json.loads(st.secrets["firebase"]["textkey"])
 if not "user_id" in st.session_state:
     st.session_state.user_id = st.query_params["sessionid"]
