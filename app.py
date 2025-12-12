@@ -41,7 +41,7 @@ MODEL_NAME="gpt-4-1106-preview"
 SLEEP_TIME_LIST = [5, 5, 5, 5, 5] # 各対話ターンの待機時間
 DISPLAY_TEXT_LIST = ['「原子力発電を廃止すべきか否か」という意見に対して、あなたの意見を入力し、送信ボタンを押してください。',
                      'あなたの意見を入力し、送信ボタンを押してください。']
-QUALTRICS_URL = "hogehoge"
+QUALTRICS_URL = "https://nagoyapsychology.qualtrics.com/jfe/form/SV_bOgTKz1CH3uES7c"
 try:
     OPENAI_API_KEY = st.secrets["openai_api_key"]
 except Exception:
