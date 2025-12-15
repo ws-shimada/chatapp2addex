@@ -160,7 +160,7 @@ def submitted():
             try:
                 doc_ref = db.collection(str(st.session_state.user_id)).document(str(st.session_state.talktime))
                 doc_ref.set({
-                    "bottype": "indi",
+                    "bottype": "bind",
                     "Human": user_input,
                     "AI": ai_reply,
                     "Human_msg_sended": st.session_state.send_time,
